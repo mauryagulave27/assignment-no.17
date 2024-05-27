@@ -13,29 +13,31 @@
     
     
   }
-
+  
   
     .movies-card{
         background-color:aqua;
         height:450px;
         width:280px;
         border-radius:10px;
+        margin-left: 20px;
         
        
     }
-.sitaramam-image{
+  .sitaramam-image{
     border:1px solid gray;
     width:250px;
     margin:10px;
-
-
-}
-.movie-card-1{
+  
+  
+  }
+  .movie-card-1{
     background-color:aqua;
         height:450px;
         width:280px;
         border-radius:10px;
-        justify-content: row;        
+        justify-content: row; 
+        margin-left: 20px;       
     }
     .lapata-ladies-image{
         border:1px solid gray;
@@ -48,6 +50,8 @@
         width:280px;
         border-radius:10px;
         justify-content:center;
+        margin-left: 20px;
+        margin-right: 20px;
         
     }
     .Hi-Nanna-movie-image{
@@ -60,8 +64,21 @@
         background-color:blueviolet;
         padding:5px;
         margin:8px;}
-
+  
         
         .movie-info{
         padding:5px 10px;
+        }
+        .movies-container-1{
+            display: flex;
+            flex-direction: row;
+            margin-left: 10px;
+            padding-left: 20px;
+            justify-content: start;
+        }
+        .movies-container-2{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: end;
+            margin-top: 20px;
         }
